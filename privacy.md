@@ -4,7 +4,7 @@ title: Focus Isle Privacy Policy
 
 # Focus Isle Privacy Policy
 
-Effective date: 2026-10-13
+Effective date: 2026-10-16
 
 This policy explains how Focus Isle (the "App"), made by Stanislau Malchanau ("we", "us"),
 handles your information. Short version: **we do not collect, sell or share your personal
@@ -16,7 +16,8 @@ The App stores the following on your device: your focus sessions (start, end, su
 result), subjects, day tasks and goals, settings, the islands you have reached, the finds
 you have collected, your captain's rank and your boat's look.
 
-We do not run servers that receive this data, and we have no access to it.
+We do not run servers that receive this data, and we have no access to it. The one
+exception is the timing of a running Live Activity, described in section 6.
 
 ## 2. iCloud sync
 
@@ -35,35 +36,63 @@ weather answer on your device. Without permission the App follows your phone's c
 instead. You can change this at any time in iOS Settings > Privacy & Security > Location
 Services > Focus Isle. Weather data is provided by Apple Weather.
 
-## 4. Purchases
+## 4. Headphone motion and spatial sound
+
+With AirPods or other supported headphones, the App can use the movement of your head to
+keep the island's sounds in place as you turn. This motion data is processed on your device
+in real time, is never stored and never leaves your device.
+
+## 5. Strict mode and Screen Time
+
+If you turn on strict mode, the App uses Apple's Screen Time framework to shield the apps
+you choose during a focus session. Apple gives the App only opaque tokens for those apps,
+which stay on your device; we cannot see which apps you chose or how you use them.
+
+## 6. Notifications and Live Activity
+
+Reminders, such as the reminder before a free trial ends, are created on your device.
+
+While a focus session runs, the App can show a Live Activity on the Lock Screen and in the
+Dynamic Island. So that it keeps moving while the App is asleep, the App sends our small
+relay server the Live Activity's push token from Apple and the session's schedule: when each
+voyage and break starts and ends, the island number, the activity colour and today's count
+against your daily goal. No name, email, subject, account or device identifier is sent. At
+each moment of the schedule the server asks Apple's push service to update the Live
+Activity, and it deletes everything as soon as the Live Activity ends. The server runs on
+Cloudflare Workers; like any internet service, Cloudflare sees the IP address of the request
+while delivering it, and we do not store it. If you turn Live Activities off for the App in
+iOS Settings, nothing is sent.
+
+## 7. Game Center
+
+If you are signed in to Game Center, your achievements are reported to Apple's Game Center
+and handled under Apple's Privacy Policy. We do not receive your Game Center identity.
+
+## 8. Purchases
 
 Subscriptions are sold and processed by Apple through the App Store. We do not receive
 your payment details. Apple tells the App only whether your subscription is active.
 
-## 5. Analytics and crash reports
+## 9. Analytics and crash reports
 
 The App contains no third-party analytics, advertising or tracking code, and it does not
 track you across other apps or websites. If you choose to share analytics with app
 developers in iOS Settings > Privacy & Security > Analytics & Improvements, Apple may give
 us aggregated, anonymous usage statistics and crash reports. They do not identify you.
 
-## 6. Notifications
-
-Reminders, such as the reminder before a free trial ends, are created on your device. No
-data is sent to us to deliver them.
-
-## 7. Children
+## 10. Children
 
 The App is suitable for all ages and does not knowingly collect personal information from
 anyone, including children under 13 (or the equivalent age in your country).
 
-## 8. Data retention and deletion
+## 11. Data retention and deletion
 
 Data stays as long as you keep it. You can delete it at any time by deleting the App and,
 for synced data, in iOS Settings > [your name] > iCloud > Manage Account Storage > Focus
-Isle. Because we hold no copy, there is nothing further for us to delete.
+Isle. Because we hold no copy, there is nothing further for us to delete. The relay server
+keeps a Live Activity's schedule only until that Live Activity ends.
 
-## 9. Your rights
+## 12. Your rights
 
 Depending on where you live (for example under the GDPR in the EU, UK GDPR, CCPA/CPRA in
 California, APPI in Japan, PIPA in Korea or LGPD in Brazil), you may have the right to
@@ -74,12 +103,12 @@ question, and you may complain to your local data protection authority.
 
 We do not sell or share personal information as defined by the CCPA/CPRA.
 
-## 10. Changes
+## 13. Changes
 
 If this policy changes, we will update the effective date above and, for material changes,
 tell you in the App.
 
-## 11. Contact
+## 14. Contact
 
 Stanislau Malchanau, Belarus
 Email: 7tam.official@gmail.com
