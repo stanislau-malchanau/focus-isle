@@ -16,8 +16,9 @@ The App stores the following on your device: your focus sessions (start, end, su
 result), subjects, day tasks and goals, settings, the islands you have reached, the finds
 you have collected, your captain's rank and your boat's look.
 
-We do not run servers that receive this data, and we have no access to it. The one
-exception is the timing of a running Live Activity, described in section 6.
+We do not run servers that receive this data, and we have no access to it. The
+exceptions are the timing of a running Live Activity (section 6) and anonymous usage
+signals (section 9).
 
 ## 2. iCloud sync
 
@@ -73,12 +74,29 @@ and handled under Apple's Privacy Policy. We do not receive your Game Center ide
 Subscriptions are sold and processed by Apple through the App Store. We do not receive
 your payment details. Apple tells the App only whether your subscription is active.
 
-## 9. Analytics and crash reports
+## 9. Usage analytics and crash reports
 
-The App contains no third-party analytics, advertising or tracking code, and it does not
-track you across other apps or websites. If you choose to share analytics with app
-developers in iOS Settings > Privacy & Security > Analytics & Improvements, Apple may give
-us aggregated, anonymous usage statistics and crash reports. They do not identify you.
+To learn which features help and where the App gets in the way, the App sends anonymous
+usage signals to TelemetryDeck, an analytics service of TelemetryDeck GmbH (Augsburg,
+Germany) with servers in the EU. A signal names an action in the App: for example, that a
+focus session started, finished or was given up, with its length and mode; that the day's
+goal was met or changed; that strict mode was turned on; that the subscription screen was
+shown or a subscription started; or that iCloud sync failed. It comes with a timestamp
+rounded to the hour and general technical details: the App and iOS versions, the device
+model, the language, region and time zone, and display and accessibility settings such as
+dark mode or text size.
+
+A signal never contains your subjects, tasks or any other text you enter, your name, email
+address, Apple Account or location. Your installation is identified only by a random
+identifier that the App salts and hashes before sending, so the signals cannot be traced
+back to you or followed across apps. TelemetryDeck stores no IP addresses and uses no
+cookies. We look at these signals only as statistics to improve the App; we do not sell
+them, share them with advertisers or use them to track you. The App contains no
+advertising or tracking code and does not track you across other apps or websites.
+
+Separately, if you choose to share analytics with app developers in iOS Settings > Privacy
+& Security > Analytics & Improvements, Apple may give us aggregated, anonymous usage
+statistics and crash reports. They do not identify you.
 
 ## 10. Children
 
@@ -90,7 +108,9 @@ anyone, including children under 13 (or the equivalent age in your country).
 Data stays as long as you keep it. You can delete it at any time by deleting the App and,
 for synced data, in iOS Settings > [your name] > iCloud > Manage Account Storage > Focus
 Isle. Because we hold no copy, there is nothing further for us to delete. The relay server
-keeps a Live Activity's schedule only until that Live Activity ends.
+keeps a Live Activity's schedule only until that Live Activity ends. Usage signals are
+anonymous and cannot be matched to you, so there is no personal record of them to look up
+or delete.
 
 ## 12. Your rights
 

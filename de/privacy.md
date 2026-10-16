@@ -15,7 +15,7 @@ Diese Erklärung beschreibt, wie Focus Isle (die „App“), entwickelt von Stan
 
 Die App speichert Folgendes auf Ihrem Gerät: Ihre Fokussitzungen (Beginn, Ende, Aktivität und Ergebnis), Aktivitäten, Tagesaufgaben und Ziele, Einstellungen, die Inseln, die Sie erreicht haben, die Funde, die Sie gesammelt haben, den Rang Ihres Kapitäns und das Aussehen Ihres Boots.
 
-Wir betreiben keine Server, die diese Daten empfangen, und haben keinen Zugriff darauf. Die einzige Ausnahme ist der Zeitplan einer laufenden Live-Aktivität, wie in Abschnitt 6 beschrieben.
+Wir betreiben keine Server, die diese Daten empfangen, und haben keinen Zugriff darauf. Ausnahmen sind der Zeitplan einer laufenden Live-Aktivität (Abschnitt 6) und anonyme Nutzungssignale (Abschnitt 9).
 
 ## 2. iCloud-Synchronisierung
 
@@ -47,9 +47,13 @@ Wenn Sie bei Game Center angemeldet sind, werden Ihre Erfolge an Game Center von
 
 Abonnements werden von Apple über den App Store verkauft und abgewickelt. Wir erhalten Ihre Zahlungsdaten nicht. Apple teilt der App nur mit, ob Ihr Abonnement aktiv ist.
 
-## 9. Analyse und Absturzberichte
+## 9. Nutzungsanalyse und Absturzberichte
 
-Die App enthält keinen Analyse-, Werbe- oder Tracking-Code von Drittanbietern und verfolgt Sie nicht über andere Apps oder Websites hinweg. Wenn Sie sich in iOS unter Einstellungen > Datenschutz & Sicherheit > Analyse & Verbesserungen dafür entscheiden, Analysedaten mit App-Entwicklern zu teilen, kann Apple uns zusammengefasste, anonyme Nutzungsstatistiken und Absturzberichte zur Verfügung stellen. Anhand dieser Daten können Sie nicht identifiziert werden.
+Um zu erfahren, welche Funktionen helfen und wo die App im Weg steht, sendet die App anonyme Nutzungssignale an TelemetryDeck, einen Analysedienst der TelemetryDeck GmbH (Augsburg, Deutschland) mit Servern in der EU. Ein Signal benennt eine Aktion in der App: zum Beispiel, dass eine Fokussitzung begonnen, beendet oder aufgegeben wurde, mit ihrer Dauer und ihrem Modus; dass das Tagesziel erreicht oder geändert wurde; dass der strenge Modus aktiviert wurde; dass der Abonnement-Bildschirm angezeigt oder ein Abonnement abgeschlossen wurde; oder dass die iCloud-Synchronisierung fehlgeschlagen ist. Dazu kommen ein auf die Stunde gerundeter Zeitstempel und allgemeine technische Angaben: die Versionen der App und von iOS, das Gerätemodell, Sprache, Region und Zeitzone sowie Einstellungen für Anzeige und Bedienungshilfen wie Dunkelmodus oder Textgröße.
+
+Ein Signal enthält niemals Ihre Aktivitäten, Aufgaben oder andere von Ihnen eingegebene Texte, Ihren Namen, Ihre E-Mail-Adresse, Ihren Apple Account oder Ihren Standort. Ihre Installation wird nur durch eine zufällige Kennung identifiziert, die von der App vor dem Senden mit einem Salt versehen und gehasht wird, sodass die Signale weder auf Sie zurückgeführt noch über Apps hinweg verfolgt werden können. TelemetryDeck speichert keine IP-Adressen und verwendet keine Cookies. Wir werten diese Signale nur statistisch aus, um die App zu verbessern; wir verkaufen sie nicht, geben sie nicht an Werbetreibende weiter und nutzen sie nicht, um Sie zu verfolgen. Die App enthält keinen Werbe- oder Tracking-Code und verfolgt Sie nicht über andere Apps oder Websites hinweg.
+
+Unabhängig davon kann Apple uns zusammengefasste, anonyme Nutzungsstatistiken und Absturzberichte zur Verfügung stellen, wenn Sie sich in iOS unter Einstellungen > Datenschutz & Sicherheit > Analyse & Verbesserungen dafür entscheiden, Analysedaten mit App-Entwicklern zu teilen. Anhand dieser Daten können Sie nicht identifiziert werden.
 
 ## 10. Kinder
 
@@ -57,7 +61,7 @@ Die App ist für alle Altersgruppen geeignet und erhebt wissentlich von niemande
 
 ## 11. Speicherdauer und Löschung
 
-Die Daten bleiben gespeichert, solange Sie sie behalten. Sie können sie jederzeit löschen, indem Sie die App löschen, und – bei synchronisierten Daten – in iOS unter Einstellungen > [Ihr Name] > iCloud > Accountspeicher verwalten > Focus Isle. Da wir keine Kopie besitzen, gibt es für uns darüber hinaus nichts zu löschen. Der Weiterleitungsserver speichert den Zeitplan einer Live-Aktivität nur, bis diese Live-Aktivität endet.
+Die Daten bleiben gespeichert, solange Sie sie behalten. Sie können sie jederzeit löschen, indem Sie die App löschen, und – bei synchronisierten Daten – in iOS unter Einstellungen > [Ihr Name] > iCloud > Accountspeicher verwalten > Focus Isle. Da wir keine Kopie besitzen, gibt es für uns darüber hinaus nichts zu löschen. Der Weiterleitungsserver speichert den Zeitplan einer Live-Aktivität nur, bis diese Live-Aktivität endet. Nutzungssignale sind anonym und lassen sich Ihnen nicht zuordnen; deshalb gibt es dazu keinen personenbezogenen Datensatz, den man abrufen oder löschen könnte.
 
 ## 12. Ihre Rechte
 

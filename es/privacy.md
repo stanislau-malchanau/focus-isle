@@ -15,7 +15,7 @@ Esta política explica cómo Focus Isle (la «App»), creada por Stanislau Malch
 
 La App almacena lo siguiente en su dispositivo: sus sesiones de concentración (inicio, fin, actividad y resultado), actividades, tareas del día y objetivos, configuración, las islas a las que ha llegado, los hallazgos que ha coleccionado, el rango de su capitán y el aspecto de su barco.
 
-No operamos servidores que reciban estos datos y no tenemos acceso a ellos. La única excepción son los horarios de una actividad en vivo en curso, que se describen en la sección 6.
+No operamos servidores que reciban estos datos y no tenemos acceso a ellos. Las excepciones son los horarios de una actividad en vivo en curso (sección 6) y las señales de uso anónimas (sección 9).
 
 ## 2. Sincronización con iCloud
 
@@ -47,9 +47,13 @@ Si ha iniciado sesión en Game Center, sus logros se envían a Game Center de Ap
 
 Apple vende y procesa las suscripciones a través del App Store. No recibimos sus datos de pago. Apple solo informa a la App si su suscripción está activa.
 
-## 9. Análisis e informes de fallos
+## 9. Análisis de uso e informes de fallos
 
-La App no contiene código de análisis, publicidad ni rastreo de terceros, y no rastrea su actividad en otras apps o sitios web. Si decide compartir análisis con los desarrolladores de apps en iOS, en Configuración > Privacidad y seguridad > Análisis y mejoras, Apple puede proporcionarnos estadísticas de uso agregadas y anónimas, así como informes de fallos. Estos datos no permiten conocer su identidad.
+Para saber qué funciones son útiles y dónde la App le estorba, la App envía señales de uso anónimas a TelemetryDeck, un servicio de análisis de TelemetryDeck GmbH (Augsburgo, Alemania) con servidores en la UE. Una señal indica una acción en la App: por ejemplo, que una sesión de concentración empezó, terminó o se abandonó, con su duración y su modo; que la meta del día se cumplió o se cambió; que se activó el modo estricto; que se mostró la pantalla de suscripción o se inició una suscripción; o que falló la sincronización con iCloud. Va acompañada de una marca de tiempo redondeada a la hora y de datos técnicos generales: las versiones de la App y de iOS, el modelo del dispositivo, el idioma, la región y la zona horaria, y la configuración de pantalla y de accesibilidad, como el modo oscuro o el tamaño del texto.
+
+Una señal nunca contiene sus actividades, sus tareas ni ningún otro texto que usted escriba, ni tampoco su nombre, su correo electrónico, su Cuenta de Apple o su ubicación. Su instalación se identifica únicamente mediante un identificador aleatorio al que la App aplica un hash con sal antes de enviarlo, de modo que las señales no pueden vincularse con usted ni seguirse entre apps. TelemetryDeck no almacena direcciones IP ni usa cookies. Solo examinamos estas señales como estadísticas para mejorar la App; no las vendemos, no las compartimos con anunciantes ni las usamos para rastrear su actividad. La App no contiene código de publicidad ni de rastreo, y no rastrea su actividad en otras apps o sitios web.
+
+Aparte de esto, si decide compartir análisis con los desarrolladores de apps en iOS, en Configuración > Privacidad y seguridad > Análisis y mejoras, Apple puede proporcionarnos estadísticas de uso agregadas y anónimas, así como informes de fallos. Estos datos no permiten conocer su identidad.
 
 ## 10. Niños
 
@@ -57,7 +61,7 @@ La App es apta para todas las edades y no recopila a sabiendas información pers
 
 ## 11. Conservación y eliminación de datos
 
-Los datos se conservan mientras usted los mantenga. Puede eliminarlos en cualquier momento eliminando la App y, en el caso de los datos sincronizados, en iOS, en Configuración > [su nombre] > iCloud > Administrar almacenamiento de la cuenta > Focus Isle. Como no conservamos ninguna copia, no tenemos nada más que eliminar. El servidor de retransmisión conserva el calendario de una actividad en vivo solo hasta que esa actividad en vivo termina.
+Los datos se conservan mientras usted los mantenga. Puede eliminarlos en cualquier momento eliminando la App y, en el caso de los datos sincronizados, en iOS, en Configuración > [su nombre] > iCloud > Administrar almacenamiento de la cuenta > Focus Isle. Como no conservamos ninguna copia, no tenemos nada más que eliminar. El servidor de retransmisión conserva el calendario de una actividad en vivo solo hasta que esa actividad en vivo termina. Las señales de uso son anónimas y no pueden vincularse con usted, por lo que no existe ningún registro personal de ellas que consultar o eliminar.
 
 ## 12. Sus derechos
 

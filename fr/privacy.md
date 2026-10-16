@@ -15,7 +15,7 @@ La présente politique explique comment Focus Isle (l'« App »), créée par 
 
 L'App stocke les éléments suivants sur votre appareil : vos sessions de concentration (début, fin, activité et résultat), vos activités, les tâches du jour et les objectifs, vos réglages, les îles que vous avez atteintes, les trouvailles que vous avez collectées, le grade de votre capitaine et l'apparence de votre bateau.
 
-Nous n'exploitons aucun serveur qui reçoit ces données, et nous n'y avons pas accès. La seule exception est le calendrier d'une activité en direct en cours, décrit à la section 6.
+Nous n'exploitons aucun serveur qui reçoit ces données, et nous n'y avons pas accès. Les exceptions sont le calendrier d'une activité en direct en cours (section 6) et les signaux d'utilisation anonymes (section 9).
 
 ## 2. Synchronisation iCloud
 
@@ -47,9 +47,13 @@ Si vous êtes connecté à Game Center, vos succès sont transmis à Game Center
 
 Les abonnements sont vendus et traités par Apple via l'App Store. Nous ne recevons pas vos informations de paiement. Apple indique uniquement à l'App si votre abonnement est actif.
 
-## 9. Analyse et rapports de plantage
+## 9. Analyse d'utilisation et rapports de plantage
 
-L'App ne contient aucun code tiers d'analyse, de publicité ou de suivi, et elle ne vous suit pas à travers d'autres apps ou sites web. Si vous choisissez de partager des données d'analyse avec les développeurs d'apps dans iOS, sous Réglages > Confidentialité et sécurité > Analyse et améliorations, Apple peut nous fournir des statistiques d'utilisation agrégées et anonymes ainsi que des rapports de plantage. Ces données ne permettent pas de vous identifier.
+Pour savoir quelles fonctionnalités sont utiles et où l'App vous gêne, l'App envoie des signaux d'utilisation anonymes à TelemetryDeck, un service d'analyse de TelemetryDeck GmbH (Augsbourg, Allemagne) dont les serveurs sont situés dans l'UE. Un signal désigne une action dans l'App : par exemple, qu'une session de concentration a commencé, s'est terminée ou a été abandonnée, avec sa durée et son mode ; que l'objectif du jour a été atteint ou modifié ; que le mode strict a été activé ; que l'écran d'abonnement a été affiché ou qu'un abonnement a commencé ; ou que la synchronisation iCloud a échoué. Il est accompagné d'un horodatage arrondi à l'heure et d'informations techniques générales : les versions de l'App et d'iOS, le modèle de l'appareil, la langue, la région et le fuseau horaire, ainsi que les réglages d'affichage et d'accessibilité, comme le mode sombre ou la taille du texte.
+
+Un signal ne contient jamais vos activités, vos tâches ou tout autre texte que vous saisissez, ni votre nom, votre adresse e-mail, votre Compte Apple ou votre position. Votre installation n'est identifiée que par un identifiant aléatoire que l'App sale puis hache avant l'envoi, de sorte que les signaux ne permettent pas de remonter jusqu'à vous et ne peuvent pas être suivis d'une app à l'autre. TelemetryDeck ne stocke aucune adresse IP et n'utilise aucun cookie. Nous n'examinons ces signaux que sous forme de statistiques, pour améliorer l'App ; nous ne les vendons pas, ne les partageons pas avec des annonceurs et ne les utilisons pas pour vous suivre. L'App ne contient aucun code de publicité ou de suivi, et elle ne vous suit pas à travers d'autres apps ou sites web.
+
+Par ailleurs, si vous choisissez de partager des données d'analyse avec les développeurs d'apps dans iOS, sous Réglages > Confidentialité et sécurité > Analyse et améliorations, Apple peut nous fournir des statistiques d'utilisation agrégées et anonymes ainsi que des rapports de plantage. Ces données ne permettent pas de vous identifier.
 
 ## 10. Enfants
 
@@ -57,7 +61,7 @@ L'App convient à tous les âges et ne collecte sciemment aucune information per
 
 ## 11. Conservation et suppression des données
 
-Les données sont conservées aussi longtemps que vous les gardez. Vous pouvez les supprimer à tout moment en supprimant l'App et, pour les données synchronisées, dans iOS, sous Réglages > [votre nom] > iCloud > Gérer le stockage du compte > Focus Isle. Comme nous n'en détenons aucune copie, nous n'avons rien d'autre à supprimer. Le serveur relais ne conserve le calendrier d'une activité en direct que jusqu'à la fin de cette activité en direct.
+Les données sont conservées aussi longtemps que vous les gardez. Vous pouvez les supprimer à tout moment en supprimant l'App et, pour les données synchronisées, dans iOS, sous Réglages > [votre nom] > iCloud > Gérer le stockage du compte > Focus Isle. Comme nous n'en détenons aucune copie, nous n'avons rien d'autre à supprimer. Le serveur relais ne conserve le calendrier d'une activité en direct que jusqu'à la fin de cette activité en direct. Les signaux d'utilisation sont anonymes et ne peuvent pas être rattachés à vous ; il n'existe donc aucun enregistrement personnel les concernant à consulter ou à supprimer.
 
 ## 12. Vos droits
 

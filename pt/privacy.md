@@ -15,7 +15,7 @@ Esta política explica como o Focus Isle (o "Aplicativo"), desenvolvido por Stan
 
 O Aplicativo armazena o seguinte no seu dispositivo: suas sessões de foco (início, fim, assunto e resultado), assuntos, tarefas do dia e metas, configurações, as ilhas que você alcançou, os achados que você coletou, a patente do seu capitão e a aparência do seu barco.
 
-Não operamos servidores que recebam esses dados e não temos acesso a eles. A única exceção são os horários de uma Atividade ao Vivo em andamento, descritos na seção 6.
+Não operamos servidores que recebam esses dados e não temos acesso a eles. As exceções são os horários de uma Atividade ao Vivo em andamento (seção 6) e os sinais de uso anônimos (seção 9).
 
 ## 2. Sincronização com o iCloud
 
@@ -47,9 +47,13 @@ Se você tiver iniciado sessão no Game Center, suas conquistas são informadas 
 
 As assinaturas são vendidas e processadas pela Apple por meio da App Store. Não recebemos seus dados de pagamento. A Apple informa ao Aplicativo apenas se sua assinatura está ativa.
 
-## 9. Análises e relatórios de falhas
+## 9. Análises de uso e relatórios de falhas
 
-O Aplicativo não contém código de análise, publicidade ou rastreamento de terceiros e não rastreia você em outros aplicativos ou sites. Se você optar por compartilhar análises com desenvolvedores de aplicativos em Ajustes do iOS > Privacidade e Segurança > Análise e Melhorias, a Apple poderá nos fornecer estatísticas de uso agregadas e anônimas e relatórios de falhas. Eles não identificam você.
+Para saber quais recursos ajudam e onde o Aplicativo atrapalha, o Aplicativo envia sinais de uso anônimos ao TelemetryDeck, um serviço de análise da TelemetryDeck GmbH (Augsburgo, Alemanha) com servidores na UE. Um sinal indica uma ação no Aplicativo: por exemplo, que uma sessão de foco começou, terminou ou foi abandonada, com sua duração e seu modo; que a meta do dia foi cumprida ou alterada; que o modo rigoroso foi ativado; que a tela de assinatura foi exibida ou que uma assinatura foi iniciada; ou que a sincronização com o iCloud falhou. Ele vem acompanhado de um carimbo de data e hora arredondado para a hora cheia e de dados técnicos gerais: as versões do Aplicativo e do iOS, o modelo do dispositivo, o idioma, a região e o fuso horário, além de ajustes de tela e de acessibilidade, como o modo escuro ou o tamanho do texto.
+
+Um sinal nunca contém seus assuntos, suas tarefas ou qualquer outro texto que você digite, nem seu nome, endereço de e-mail, Conta Apple ou localização. Sua instalação é identificada apenas por um identificador aleatório ao qual o Aplicativo aplica um hash com salt antes do envio, de modo que os sinais não podem ser associados a você nem acompanhados entre aplicativos. O TelemetryDeck não armazena endereços IP e não usa cookies. Analisamos esses sinais apenas como estatísticas para melhorar o Aplicativo; não os vendemos, não os compartilhamos com anunciantes e não os usamos para rastrear você. O Aplicativo não contém código de publicidade ou rastreamento e não rastreia você em outros aplicativos ou sites.
+
+Independentemente disso, se você optar por compartilhar análises com desenvolvedores de aplicativos em Ajustes do iOS > Privacidade e Segurança > Análise e Melhorias, a Apple poderá nos fornecer estatísticas de uso agregadas e anônimas e relatórios de falhas. Eles não identificam você.
 
 ## 10. Crianças
 
@@ -57,7 +61,7 @@ O Aplicativo é adequado para todas as idades e não coleta intencionalmente inf
 
 ## 11. Retenção e exclusão de dados
 
-Os dados permanecem pelo tempo que você os mantiver. Você pode apagá-los a qualquer momento apagando o Aplicativo e, no caso dos dados sincronizados, em Ajustes do iOS > [seu nome] > iCloud > Gerenciar Armazenamento da Conta > Focus Isle. Como não mantemos nenhuma cópia, não há mais nada para apagarmos. O servidor de retransmissão mantém a programação de uma Atividade ao Vivo somente até essa Atividade ao Vivo terminar.
+Os dados permanecem pelo tempo que você os mantiver. Você pode apagá-los a qualquer momento apagando o Aplicativo e, no caso dos dados sincronizados, em Ajustes do iOS > [seu nome] > iCloud > Gerenciar Armazenamento da Conta > Focus Isle. Como não mantemos nenhuma cópia, não há mais nada para apagarmos. O servidor de retransmissão mantém a programação de uma Atividade ao Vivo somente até essa Atividade ao Vivo terminar. Os sinais de uso são anônimos e não podem ser associados a você, portanto não existe nenhum registro pessoal deles para consultar ou apagar.
 
 ## 12. Seus direitos
 
